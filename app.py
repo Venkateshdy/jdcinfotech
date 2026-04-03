@@ -145,7 +145,7 @@ if st.button("🚀 Generate Website"):
         os.makedirs(folder, exist_ok=True)
 
         for page in pages:
-            file_path = f"{folder}/{page.lower()}.html"
+            file_path = "index.html"
 
             html = generate_page_html(page, business_name)
 
